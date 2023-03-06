@@ -11,3 +11,5 @@ convert -blur 0x8 /tmp/screen_dark.png /tmp/screen_blur.png
 convert -composite /tmp/screen_blur.png ~/.config/i3/aUq9FWc.png -gravity South -geometry -20x1200 /tmp/screen.png
 i3lock -i /tmp/screen.png
 revert
+
+# https://www.reddit.com/r/i3wm/comments/8hpjb6/i3_lock_screen/
